@@ -15,7 +15,7 @@ function App() {
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     let pass = "";
     if (numberAllowed) str += "0123456789";
-    if (charallowed) str += "!@#$%^&*-_+=[]{}~`";
+    if (charallowed) str += "!@#$%&*-_+=[]{}~`";
     for (let i = 1; i <= length; i++) {
       let char = Math.floor(Math.random() * str.length + 1);
       pass += str.charAt(char);
